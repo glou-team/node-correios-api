@@ -62,6 +62,7 @@ module.exports = async function calculateShipping({
     }
   }
 
+
   const { value, done } = shippingMethodsGenerator.next()
   
   const response = await recursivelyExecute(value, done, [])
@@ -77,8 +78,6 @@ module.exports = async function calculateShipping({
         shipping_name: shippingTypes[item.Codigo],
       }
     })
-
-    console.log(parsedResponse)
 
     return {
       data: parsedResponse,

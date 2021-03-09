@@ -28,8 +28,6 @@ routes.get('/shipping', async (req, res) => {
 
     const response = await Promise.all(calculatedShippingResponse)
 
-    console.log({response})
-
     return res.json(response)
 
   } catch (error) {
