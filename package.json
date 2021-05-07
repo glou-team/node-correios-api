@@ -6,7 +6,6 @@
   "dependencies": {
     "correios-brasil": "^2.0.4",
     "express": "^4.17.1",
-    "node-correios": "^3.0.2",
     "nodemon": "^2.0.4"
   },
   "scripts": {
