@@ -16,10 +16,10 @@ module.exports = async function calculateShipping({
   ]
 
   const shippingTypes = {
-    '4782': 'SEDEX 12',
-    '4790': 'SEDEX 10',
-    '4014': 'SEDEX',
-    '4510': 'PAC'
+    '04782': 'SEDEX 12',
+    '04790': 'SEDEX 10',
+    '04014': 'SEDEX',
+    '04510': 'PAC'
   }
 
   /**
